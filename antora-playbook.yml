@@ -1,0 +1,4 @@
+site:
+  title: Linuxgoose's AsciiDoc Sandbox
+  url: https://www.jordanrobinson.org/asciidoc-sandbox/
+  start_page: home::index.adoc
