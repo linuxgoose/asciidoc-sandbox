@@ -18,7 +18,7 @@ content:
   ## out and replaced with a non git@ prefix. To revert if it causes issues
   sources:
   - url: .
-    branches: HEAD
+    branches: main
     start_path: home
 ui:
   bundle:
