@@ -5,22 +5,22 @@ site:
   robots: |
     User-agent: *
     Allow: /
-  git:
-    ensure_git_suffix: false
-    fetch_concurrency: 1
-  urls:
-    latest_version_segment_strategy: redirect:to
-    latest_version_segment: current
-  content:
-    branches: master
-    # NOTE the git@ segment in the URL indicates which repositories are private
-    ## The above has a bug when upgrading to Antora 3.1. Original sources commented
-    ## out and replaced with a non git@ prefix. To revert if it causes issues
-    sources:
-    - url: .
-      branches: HEAD
-      start_path: home
-  ui:
-    bundle:
-      url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-      snapshot: true
+git:
+  ensure_git_suffix: false
+  fetch_concurrency: 1
+urls:
+  latest_version_segment_strategy: redirect:to
+  latest_version_segment: current
+content:
+  branches: master
+  # NOTE the git@ segment in the URL indicates which repositories are private
+  ## The above has a bug when upgrading to Antora 3.1. Original sources commented
+  ## out and replaced with a non git@ prefix. To revert if it causes issues
+  sources:
+  - url: .
+    branches: HEAD
+    start_path: home
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
