@@ -1,3 +1,6 @@
+antora:
+  extensions:
+  - '@antora/lunr-extension'
 site:
   title: Linuxgoose's AsciiDoc Sandbox
   url: https://www.jordanrobinson.org/asciidoc-sandbox/
