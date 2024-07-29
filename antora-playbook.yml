@@ -26,3 +26,5 @@ ui:
     snapshot: true
 output:
   dir: ./build/site
+runtime:
+  fetch: true
