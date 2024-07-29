@@ -1,1 +1,3 @@
 = Home
+
+xref:operator::overview.adoc[Couchbase Autonomous Operator]
