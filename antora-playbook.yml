@@ -12,10 +12,6 @@ urls:
   latest_version_segment_strategy: redirect:to
   latest_version_segment: current
 content:
-  branches: main
-  # NOTE the git@ segment in the URL indicates which repositories are private
-  ## The above has a bug when upgrading to Antora 3.1. Original sources commented
-  ## out and replaced with a non git@ prefix. To revert if it causes issues
   sources:
   - url: .
     branches: main
