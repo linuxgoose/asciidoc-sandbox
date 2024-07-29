@@ -1,6 +1,6 @@
 name: home
 title: Linuxgoose's AsciiDoc Sandbox
-version: master
+version: main
 nav:
 - modules/contribute/nav.adoc
 asciidoc:
