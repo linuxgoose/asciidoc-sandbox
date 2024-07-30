@@ -21,7 +21,7 @@ content:
     start_path: home
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/linuxgoose/antora-goose-ui/archive/refs/tags/0.1.0.zip
     snapshot: true
 output:
   dir: ./build/site
