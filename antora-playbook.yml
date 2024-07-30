@@ -22,7 +22,6 @@ content:
 ui:
   bundle:
     url: https://github.com/linuxgoose/antora-goose-ui/archive/refs/tags/0.1.0.zip
-    snapshot: true
 output:
   dir: ./build/site
 runtime:
